@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shortcut_tab"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/translucent"
+    android:paddingBottom="@dimen/top_bottom_margin"
+    android:paddingTop="@dimen/top_bottom_margin"
+    android:stretchColumns="*" >
+
+    <TableRow android:layout_marginBottom="@dimen/cell_half_margin" >
+
+        <LinearLayout
+            android:id="@+id/empty_cell1"
+            android:layout_width="@dimen/shortcut_left_right_margin"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cell1"
+            style="@style/shortcut_layout"
+            android:background="@drawable/bg_green" >
+
+            <ImageView
+                android:id="@+id/cell1_image"
+                style="@style/shortcut_icon"
+                android:contentDescription="@null"
+                android:src="@drawable/icon_older_zone" />
+
+            <TextView
+                android:id="@+id/cell1_text"
+                style="@style/shortcut_text"
+                android:text="@string/app_older_zone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cell3"
+            style="@style/shortcut_layout"
+            android:background="@drawable/bg_orange" >
+
+            <ImageView
+                style="@style/shortcut_icon"
+                android:contentDescription="@null"
+                android:src="@drawable/icon_movie" />
+
+            <TextView
+                style="@style/shortcut_text"
+                android:text="@string/app_vod" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cell5"
+            style="@style/shortcut_layout"
+            android:background="@drawable/bg_purple" >
+
+            <ImageView
+                style="@style/shortcut_icon"
+                android:contentDescription="@null"
+                android:src="@drawable/icon_live" />
+
+            <TextView
+                style="@style/shortcut_text"
+                android:text="@string/app_live" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/empty_cell2"
+            android:layout_width="@dimen/shortcut_left_right_margin"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow android:layout_marginTop="@dimen/cell_half_margin" >
+
+        <LinearLayout
+            android:id="@+id/empty_cell3"
+            android:layout_width="@dimen/shortcut_left_right_margin"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cell2"
+            style="@style/shortcut_layout"
+            android:background="@drawable/bg_red" >
+
+            <ImageView
+                style="@style/shortcut_icon"
+                android:contentDescription="@null"
+                android:src="@drawable/icon_net_radio" />
+
+            <TextView
+                style="@style/shortcut_text"
+                android:text="@string/app_net_radio" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cell4"
+            style="@style/shortcut_layout"
+            android:background="@drawable/bg_blue" >
+
+            <ImageView
+                style="@style/shortcut_icon"
+                android:contentDescription="@null"
+                android:src="@drawable/icon_wifi" />
+
+            <TextView
+                style="@style/shortcut_text"
+                android:text="@string/app_wifi_tool" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cell6"
+            style="@style/shortcut_layout"
+            android:background="@drawable/bg_green" >
+
+            <ImageView
+                style="@style/shortcut_icon"
+                android:contentDescription="@null"
+                android:src="@drawable/icon_settings" />
+
+            <TextView
+                style="@style/shortcut_text"
+                android:text="@string/app_settings" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/empty_cell4"
+            android:layout_width="@dimen/shortcut_left_right_margin"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </TableRow>
+
+</TableLayout>

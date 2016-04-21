@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 已安装应用信息 -->
+    <string name="app_name_aw">应用名:</string>
+    <string name="app_package_name">应用包名:</string>
+    <string name="app_version_num">版本号:</string>
+    <string name="app_version_name">版本名:</string>
+    <string name="app_class_name">类名:</string>
+    <string name="is_system_app">系统应用:</string>
+</resources>

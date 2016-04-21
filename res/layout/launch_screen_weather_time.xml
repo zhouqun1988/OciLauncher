@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.allwinner.theatreplayer.launcher.view.iLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/weather_and_time_container_bottom_margin"
+    android:paddingTop="@dimen/weather_and_time_container_top_margin" >
+
+    <!--
+    <LinearLayout
+        android:layout_width="@dimen/weather_and_time_container_width"
+        android:layout_height="0dp"
+        android:layout_weight="5.8" >
+
+        <com.allwinner.theatreplayer.launcher.view.TimerClock
+            android:id="@+id/timerclock"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/clock_margin_left"
+            android:layout_gravity="center_horizontal|center_vertical" />
+    </LinearLayout>
+    -->
+
+    <LinearLayout
+        android:id="@+id/weather_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7.0"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/weather_and_time_container_padding_margin" >
+
+        <ImageView
+            android:id="@+id/no_weather_data_hint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/no_weather_data_hint" />
+
+        <TextView
+            android:id="@+id/city"
+            style="@style/weather_time_text"
+            android:layout_weight="1.2"
+            android:text="@string/dft_city"
+            android:textSize="@dimen/textsize_medium_2" />
+
+        <ImageView
+            android:id="@+id/weather_img"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.4"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_white_01" />
+
+        <TextView
+            android:id="@+id/current_temperature"
+            style="@style/weather_time_text"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.6"
+            android:drawableRight="@drawable/icon_degrees_centigrade"
+            android:text="@string/dft_temperature"
+            android:textSize="@dimen/textsize_large" />
+
+        <TextView
+            android:id="@+id/weather"
+            style="@style/weather_time_text"
+            android:layout_marginTop="-6dp"
+            android:layout_weight="1.4"
+            android:text="@string/dft_weather"
+            android:textSize="@dimen/textsize_small" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/date_time_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.3"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/weather_and_time_container_padding_margin" >
+
+        <TextView
+            android:id="@+id/weekday"
+            style="@style/weather_time_text"
+            android:layout_weight="1.0"
+            android:text="@string/dft_weekday"
+            android:textSize="@dimen/textsize_small" />
+
+        <TextView
+            android:id="@+id/current_date"
+            style="@style/weather_time_text"
+            android:layout_weight="1.0"
+            android:text="@string/dft_date"
+            android:textSize="@dimen/textsize_small" />
+
+        <TextView
+            android:id="@+id/lunar_calenda"
+            style="@style/weather_time_text"
+            android:layout_weight="1.0"
+            android:text="@string/dft_lunar"
+            android:textSize="@dimen/textsize_small" />
+    </LinearLayout>
+
+</com.allwinner.theatreplayer.launcher.view.iLinearLayout>

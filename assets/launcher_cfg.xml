@@ -1,0 +1,32 @@
+<arrangements xmlns:launcher="http://schemas.android.com/apk/res/com.allwinner.theatreplayer.launcher" >
+
+
+        <!--authorized 该属性用于配置是否默认打开电视直播功能，false表示不打开，true表示打开-->
+        <!--music_background_play 该属性用于配置音乐是否支持后台播放，true表示支持，false表示不支持-->
+        <!--netradio_background_play 该属性用于配置网络电台是否支持后台播放，true表示支持，false表示不支持-->
+        <!--fm_background_play 该属性用于配置收音机是否支持后台播放，true表示支持，false表示不支持-->
+        <!--familyalbum_auto_recycle 该属性用于配置亲情相册是否支持在主界面轮播，true表示支持，false表示不支持-->
+	<arrangement
+		authorized="true"
+		music_background_play="true"
+		netradio_background_play="true"
+		fm_background_play="true"
+		familyalbum_auto_recycle="false"
+		has_more_language="false" />
+
+	<!--TPLauncher自动杀进程进程保护白名单,填写进程名字-->
+	<protectarray> 
+		<package name="android.process.media"/>
+		<package name="com.android.music"/>
+		<package name=com.allwinner.theatreplayer.launcher/>
+		<package name="com.ococci.video"/>
+		<package name="com.ococci.video.service.UpdateService"/>
+		<package name="com.tencent.device.UpdateService">
+		<package name="com.vst.health.allwinner"/>
+		<package name="com.tencent.device.TXDeviceService"/>
+		<package name="com.tencent.deviceapp"/>
+		<package name="com.adups.fota.sysoper"/> 
+	</protectarray>
+
+
+</arrangements>

@@ -1,0 +1,137 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Wallpaper.NoTitleBar"/>
+
+    <style name="AppBaseThemeForV9" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <!-- <style name="AppBaseTheme" parent="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"></style> -->
+
+    <style name="DialogShortcut" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Activity</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="DialogActivity" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/bg</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Activity</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="view_page_height">
+        <item name="android:layout_weight">@integer/viewpager_height</item>
+    </style>
+
+	<style name="view_page_top_empty_height">
+        <item name="android:layout_weight">@integer/top_empty_height</item>
+    </style>
+    
+    <style name="cell_layout_2">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="cell_layout_1">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="cell_icon">
+        <item name="android:scaleType">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="cell_text">
+        <item name="android:textSize">@dimen/textsize_large</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="shortcut_layout">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">@dimen/shortcut_cell_width</item>
+        <item name="android:layout_height">@dimen/shortcut_cell_height</item>
+        <item name="android:layout_marginLeft">@dimen/cell_half_margin</item>
+        <item name="android:layout_marginRight">@dimen/cell_half_margin</item>
+    </style>
+
+    <style name="shortcut_icon">
+        <item name="android:layout_marginTop">18dip</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="shortcut_text">
+        <item name="android:textSize">@dimen/textsize_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="screen_2_text">
+        <item name="android:textSize">@dimen/textsize_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginTop">@dimen/text_margin_top_screen2</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="weather_time_text">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+     <style name="anim_view">
+        <item name="@android:windowEnterAnimation">@anim/top_in</item>
+        <item name="@android:windowExitAnimation">@anim/top_out</item>
+    </style>
+<style name="CustomDialog" parent="android:style/Theme.Dialog">  
+      <item name="android:windowBackground">@drawable/transparent</item>  
+      <item name="android:windowFrame">@null</item>  
+      <item name="android:backgroundDimEnabled">true</item>  
+      <item name="android:windowIsTranslucent">true</item>  
+      <item name="android:windowNoTitle">true</item>  
+      <item name="android:windowFullscreen">true</item>  
+        </style>  
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="800"  >
+    
+    <com.allwinner.theatreplayer.launcher.view.iLinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/cell_half_margin"
+        android:layout_marginRight="@dimen/cell_half_margin"
+        android:layout_weight="185"
+        android:gravity="center"
+        android:background="#00000000"
+        android:weightSum="5.0"
+         
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:scaleType="center"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_medium" />
+    </com.allwinner.theatreplayer.launcher.view.iLinearLayout>
+    
+    <com.allwinner.theatreplayer.launcher.view.iLinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/cell_half_margin"
+        android:layout_marginRight="@dimen/cell_half_margin"
+        android:layout_weight="185"
+        android:gravity="center"
+        android:background="#00000000"
+        android:weightSum="5.0"
+         
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:scaleType="center"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_medium" />
+    </com.allwinner.theatreplayer.launcher.view.iLinearLayout>
+    
+    <com.allwinner.theatreplayer.launcher.view.iLinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/cell_half_margin"
+        android:layout_marginRight="@dimen/cell_half_margin"
+        android:layout_weight="185"
+        android:gravity="center"
+        android:background="#00000000"
+        android:weightSum="5.0"
+         
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:scaleType="center"
+            android:contentDescription="@null"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_medium" />
+    </com.allwinner.theatreplayer.launcher.view.iLinearLayout>
+    
+    <com.allwinner.theatreplayer.launcher.view.iLinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/cell_half_margin"
+        android:layout_weight="185"
+        android:gravity="center"
+        android:weightSum="5.0"
+        android:background="#00000000"
+         
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:scaleType="center"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_medium" />
+    </com.allwinner.theatreplayer.launcher.view.iLinearLayout>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<resources>
+
+    <dimen name="cell_width">180dp</dimen>
+    <dimen name="cell_height">174dp</dimen>
+    <dimen name="cell_icon_width">86dp</dimen>
+    <dimen name="cell_icon_height">86dp</dimen>
+    <dimen name="cell_width_with_margin">185dp</dimen>
+    <dimen name="cell_height_with_margin">185dp</dimen>
+    <dimen name="top_bottom_margin">46dp</dimen>
+    <dimen name="left_right_margin">32dp</dimen>
+    <dimen name="shortcut_left_right_margin">120dp</dimen>
+    <dimen name="textsize_huge">32sp</dimen>
+    <dimen name="textsize_large">28sp</dimen>
+    <dimen name="textsize_medium">23sp</dimen>
+    <dimen name="textsize_medium_3">40sp</dimen>
+    <dimen name="textsize_medium_2">20sp</dimen>
+    <dimen name="textsize_small">18sp</dimen>
+
+    <dimen name="top_margin">56dp</dimen>
+    <dimen name="top_margin_screen2">36dp</dimen>
+    <dimen name="bottom_margin">70dp</dimen>
+    <dimen name="left_margin">27dp</dimen>
+    <dimen name="right_margin">27dp</dimen>
+    <dimen name="weather_top_margin">10dp</dimen>
+    <dimen name="weather_right_margin">27dp</dimen>
+    
+    <dimen name="weather_and_time_container_width">156dp</dimen>
+    <dimen name="weather_and_time_container_height">340dp</dimen>
+	<dimen name="weather_and_time_container_top_margin">20dp</dimen>
+    <dimen name="weather_and_time_container_bottom_margin">20dp</dimen>
+    <dimen name="weather_and_time_container_padding_margin">6dp</dimen>
+    <dimen name="text_img_margin_bottom">16dp</dimen>
+    <dimen name="text_img_margin_top">42dp</dimen>
+    <dimen name="text_img_margin_top_long">118dp</dimen>
+    <dimen name="icon_margin_right">70dp</dimen>
+    <dimen name="icon_margin_left">74dp</dimen>
+    <dimen name="icon_margin_left_long">155dp</dimen>
+    
+    <dimen name="view_page_text_size">28px</dimen>
+    <dimen name="navigation_home_to_left">30dp</dimen>
+    <dimen name="navigation_home_margin_left">30dp</dimen>
+    
+    <dimen name="top_focus_line_to_left">20dp</dimen>
+    <dimen name="wether_text_size">21px</dimen>
+    
+    <dimen name="cell_big_margin">12dp</dimen>
+    <dimen name="cell_margin">4dp</dimen>
+    <dimen name="cell_half_margin">2dp</dimen>
+    <dimen name="shortcut_cell_width">142dp</dimen>
+    <dimen name="shortcut_cell_height">152dp</dimen>
+    <dimen name="text_margin_top_screen2">12dp</dimen>
+    <dimen name="clock_margin_left">8dp</dimen>
+    <dimen name="clock_margin_bottom">8dp</dimen>
+    
+    <dimen name="top_weather_x">280px</dimen>
+	
+</resources>

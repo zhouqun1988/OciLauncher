@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<categorys xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--
+        使用方法：
+           1.category为一个栏目，包含的application为栏目的内容；
+           2.headline为栏目的标题，是否必填：yes，栏目名可以修改；
+           3.position为栏目的位置，是否必填：yes，位置可以修改，比如把影视放到第一位，就把影视的position改成0，其它栏目position按顺序改成1、2、3、4；
+           4.type为栏目的类型，是否必填：yes，类型不可以修改；每个栏目对应的type都是固定不变的；
+           5.title为标题，是否必填：yes，填写该应用的全名，比如：本地相册
+           6.packageName为包名，是否必填：yes
+           7.className为类名，是否必填：no
+           8.icon为图标图按，是否必填：yes，                                     
+           9.backgroundPic为图标背景，是否必填：no，优先使用背景图
+           10.backgroundColour为图标背景色，是否必填：no，当无背景图时使用背景色
+           11.由于影视栏目的电视剧和综艺的人像图标是动态获取网络图标的，所以背景图不要再贴人像图片；
+           12.portrait为是否强制竖屏，当为true是表示强制竖屏，否则默认为强制横屏；
+
+     
+         其他说明：
+           1. 使用方法第8、9、10填写有两种方式：1).写上本文件目录下icon的全名，比如test.png;
+                                              2).写上app里drawable的资源名，比如，custom_icon_gallery；
+           2. 图标可以由icon，backgroundPic和backgroundColour构成，也可以只是用其中一个，例如：
+   如果图标不是由背景色或者背景图片和图案构成的话，只是一张图标，那么只需设置icon即可，backgroundPic和backgroundColour可以不设置
+           3. 使用了“备用坑位"后，网络电台与新增的应用共同占用原来网络电台的图标位置，即原来网络电台的图标位置会分为两块
+           4. 使用了“备用坑位"后，需重提供网络电台和新增应用的图标，放于本文件所在目录下
+           5. 需增加相机入口，只需把headline="本地"里注释掉的打开即可
+ 
+    -->
+
+	<category
+	    headline="首页"
+	    position ="0"
+	    type="1">
+		<application
+	        title="电视"
+	        packageName="com.vst.live.allwinner"
+	        className=""
+	        icon="icon_series"
+	        backgroundPic=""
+	        backgroundColour="#38b836"
+	        portrait="false" />
+
+		<application
+	        title="连续剧"
+	        packageName="com.ococci.video"
+	        className="tv"
+	        icon="icon_live"
+	        backgroundPic=""
+	        backgroundColour="#eF8000"
+	        portrait="false" />
+		
+		<application
+	        title="视频通话"
+	       	packageName="com.tencent.deviceapp"
+	        className=""
+	        icon="new_xiaoqi_icon"
+	        backgroundPic=""
+	        backgroundColour="#6699FF"
+	        portrait="false"  />
+		
+	
+<!--
+	  		<application
+	        title="电影"
+	        packageName="com.vst.vod.allwinner.VodType"
+	        className="1"
+	        icon="icon_movie"
+	        backgroundPic=""
+	        backgroundColour="#f18900"
+	        portrait="false" />
+	
+-->
+	</category>
+ 
+	<category
+	    headline="推荐"
+	    position ="1"
+	    type="2">
+
+	    <application
+			title="综艺"
+			packageName="com.ococci.video"
+			className="variety"
+			icon="icon_square_dance"
+			backgroundPic=""
+			backgroundColour="#ff6666"
+			portrait="false" />
+	    <application
+	        title="点播"
+	        packageName="com.vst.vod.allwinner"
+	        className=""
+	        icon="icon_bunch_planting"
+	        backgroundPic=""
+	        backgroundColour="#FF8000"
+	        portrait="false" />
+	    
+	   <application
+	        title="电影"
+	        packageName="com.ococci.video"
+	        className="movie"
+	        icon="icon_movie"
+	        backgroundPic=""
+	        backgroundColour="#6699FF"
+	        portrait="false" />
+	   <application
+	        title="动画片"
+	        packageName="com.vst.children"
+	        className="2"
+	        icon="icon_comic"
+	        backgroundPic=""
+	        backgroundColour="#9455f3"
+	        portrait="false" /> 
+	        
+	   <application
+	        title="少儿"
+	        packageName="com.ococci.video"
+	        className="cartoon"
+	        icon="icon_kids"
+	        backgroundPic=""
+	        backgroundColour="#368ff4"
+	        portrait="false" />
+		<application
+	        title="设置"
+	        packageName="com.android.settings"
+	        className=""
+	        icon="icon_settings"
+	        backgroundPic=""
+	        backgroundColour="#368ff4"
+	        portrait="false" />	
+		<!--packageName="com.android.settings.Settings"
+		 <application
+	        title="斗地主"
+	        packageName="com.qqgame.hlddz"
+	        className=""
+	        icon="ddz_icon"
+	        backgroundPic=""
+	        backgroundColour="#FF8000" 
+	        portrait="false"/> -->
+	    <!-- <application
+	        title="点播"
+	        packageName="com.vst.vod.allwinner"
+	        className=""
+	        icon="icon_bunch_planting"
+	        backgroundPic=""
+	        backgroundColour="#9455f3"
+	        portrait="false" /> -->
+	    <!-- <application
+			title="健康达人"
+			packageName="com.vst.health.allwinner"
+			className=""
+			icon="icon_older_zone"
+			backgroundPic=""
+			backgroundColour="#ffa200"
+			portrait="false" /> -->
+	    
+		<!-- <application
+	        title="少儿"
+	        packageName="com.vst.vod.allwinner.VodType"
+	        className="8"
+	        icon="icon_kids"
+	        backgroundPic=""
+	        backgroundColour="#368ff4"
+	        portrait="false" />
+		<application
+	        title="亲情相册"
+	       	packageName="com.allwinner.theatreplayer.album"
+	        className=""
+	        icon="icon_family_album"
+	        illustration=""
+	        backgroundPic=""
+	        backgroundColour="#ff6666"
+	        portrait="false"  />	
+		
+		<application
+	        title="游戏"
+	        packageName="com.allwinner.theatreplayer.launcher.FunAppActivity"
+	        className=""
+	        icon="icon_games"
+	        backgroundPic=""
+	        backgroundColour="#a2c90f"
+	        portrait="false" /> -->
+		<!-- <application
+	        title="相机"
+	        packageName="com.android.gallery3d"
+	        className="com.android.camera.CameraLauncher"
+	        icon="icon_local_camera"
+	        backgroundPic=""
+	        backgroundColour="#38ae36"
+	        portrait="false" /> -->
+		
+		<!-- <application
+	        title="播放设置"
+	        packageName="com.vst.vod.allwinner.Setting"
+	        className=""
+	        icon="icon_comic"
+	        backgroundPic=""
+	        backgroundColour="#6699FF"
+	        portrait="false" /> -->
+		<!-- <application
+	        title="本地视频"
+	        packageName="com.android.gallery3d"
+	        className="movie"
+	        icon="icon_local_movie"
+	        backgroundPic=""
+	        backgroundColour="#faa214"
+	        portrait="false" />
+		<application
+	        title="本地音乐"
+	        packageName="com.android.music"
+	        className=""
+	        icon="icon_local_music"
+	        backgroundPic=""
+	        backgroundColour="#0fc4d9"  
+	        portrait="false" />
+		<application
+	        title="相机"
+	        packageName="com.android.gallery3d"
+	        className="com.android.camera.CameraLauncher"
+	        icon="icon_local_camera"
+	        backgroundPic=""
+	        backgroundColour="#38ae36"
+	        portrait="false" />
+		
+		 
+		<application
+	        title="少儿"
+	        packageName="com.vst.vod.allwinner.VodType"
+	        className="8"
+	        icon="icon_comic"
+	        backgroundPic=""
+	        backgroundColour="#6699FF"
+	        portrait="false" />-->
+	        
+		
+		<!-- <application
+	        title="收音机"
+	        packageName="com.hklt.fm"
+	        className=""
+	        icon="icon_local_fm"
+	        backgroundPic=""
+	        backgroundColour="#8dbc50"
+	        portrait="false" />		
+		<application
+	        title="动漫"
+	        packageName="com.vst.vod.allwinner.VodType"
+	        className="3"
+	        icon="icon_comic"
+	        backgroundPic=""
+	        backgroundColour="#6699FF"
+	        portrait="false" />
+		<application
+	        title="应用"
+	        packageName="com.allwinner.theatreplayer.launcher.AllAppActivity"
+	        className=""
+	        icon="icon_all_app"
+	        backgroundPic=""
+	        backgroundColour="#368ff4"
+	        portrait="false" />
+	    <application
+	        title="电台"
+	        packageName="com.allwinner.theatreplayer.netradio"
+	        className=""
+	        icon="icon_net_radio"
+	        backgroundPic=""
+	        backgroundColour="#ffa200" 
+	        portrait="false"/> -->
+		
+	</category>
+
+<!--
+	<category
+	    headline="推荐"
+	    position ="3"
+	    type="3">
+	    	<application
+	        title="本地音乐"
+	        packageName="com.android.music"
+	        className=""
+	        icon="icon_local_music"
+	        backgroundPic=""
+	        backgroundColour="#38ae36"  
+	        portrait="false" />
+		
+		<application
+	        title="本地视频"
+	        packageName="com.android.gallery3d"
+	        className="movie"
+	        icon="icon_local_movie"
+	        backgroundPic=""
+	        backgroundColour="#e04840"
+	        portrait="false" />
+				
+		<application
+	        title="相机"
+	        packageName="com.android.gallery3d"
+	        className="com.android.camera.CameraLauncher"
+	        icon="icon_local_camera"
+	        backgroundPic=""
+	        backgroundColour="#3596c8"
+	        portrait="false" />
+		
+		<application
+	        title="本地相册"
+	        packageName="com.android.gallery3d"
+	        className="gallery"
+	        icon="icon_local_gallery"
+	        backgroundPic=""
+	        backgroundColour="#f5b82b"
+	        portrait="false" />
+		<application
+	        title="亲情相册"
+	       	packageName="com.ebanswers.scrollplayer"
+	        className=""
+	        icon="icon_micro_screen"
+	        backgroundPic=""
+	        backgroundColour="#e04840"
+	        portrait="false"  />
+	</category>
+	<category
+	    headline="游戏"
+	    position ="4"
+	    type="4">
+	    <application
+	        title="愤怒的小鸟"
+	        packageName="com.rovio.angrybirds"
+	        className=""
+	        icon="custom_icon_angry_birds"
+	        backgroundPic=""
+	        backgroundColour=""
+	        portrait="false" />
+	    
+	    <application
+	        title="水果忍者"
+	        packageName="com.halfbrick.fruitninjahd"
+	        className=""
+	        icon="custom_icon_fruit_ninja"
+	        backgroundPic=""
+	        backgroundColour=""
+	        portrait="false" />
+		
+	
+	    <application
+	        title="单机斗地主"
+	        packageName="com.reAwakeGame.llpoker"
+	        className=""
+	        icon="custom_icon_llpoker"
+	        backgroundPic=""
+	        backgroundColour=""
+	        portrait="false" />
+		
+	    <application
+	        title="单机麻将"
+	        packageName="com.lemon.play.majiang"
+	        className=""
+	        icon="custom_icon_majiang"
+	        backgroundPic=""
+	        backgroundColour=""
+	        portrait="false" />
+	    	
+	    <application
+	        title="戳青蛙"
+	        packageName="com.yodo1.cmmm.TapTheFrog"
+	        className=""
+	        icon="custom_icon_frog"
+	        backgroundPic=""
+	        backgroundColour=""
+	        portrait="false" />
+	    
+	    <application
+	        title="打地鼠"
+	        packageName="com.emman.hamster"
+	        className=""
+	        icon="custom_icon_hamster"
+	        backgroundPic=""
+	        backgroundColour=""
+	        portrait="false" />
+		
+	   <application
+	        title="蜡笔物理学"
+	        packageName="com.kloonigames.crayon"
+	        className=""
+	        icon="custom_icon_crayon"
+	        backgroundPic=""
+	        backgroundColour=""
+	        portrait="true" />
+	
+	   <application
+	        title="五子棋对战"
+	        packageName="com.skymm.fivechess"
+	        className=""
+	        icon="custom_icon_chinese_chess"
+	        backgroundPic=""
+	        backgroundColour=""
+	        portrait="true" />
+	</category>
+   -->
+
+</categorys>

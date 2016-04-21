@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_id" translatable="false">553ef3e1</string>
+    <string name="app_name" translatable="false">桌面</string>
+    <string name="dlg_title_light" translatable="false">亮度</string>
+    <string name="dlg_title_sound" translatable="false">音量</string>
+    <string name="dlg_done_text" translatable="false">确定</string>
+    <string name="dlg_connect_text" translatable="false">连接</string>
+    <string name="dlg_cancel_text" translatable="false">取消</string>
+    <string name="dlg_wifi_hint" translatable="false">请输入wifi密码</string>
+    <string name="dft_temperature" translatable="false"></string>
+    <string name="dft_dc" translatable="false">℃</string>
+    <string name="dft_temperature_range" translatable="false">-16~-24℃</string>
+    <string name="dft_weather" translatable="false">晴转多云</string>
+    <string name="dft_city" translatable="false">联网自动更新天气</string>
+    <string name="dft_update_time" translatable="false">更新于12/31</string>
+    <string name="dft_time" translatable="false">14:17</string>
+    <string name="dft_weekday" translatable="false">星期二</string>
+    <string name="dft_date" translatable="false">2014/12/23</string>
+    <string name="dft_lunar" translatable="false">农历十一月初二</string>
+    <string name="dft_am_pm" translatable="false">上午</string>
+    <string name="unknow_weather" translatable="false"></string>
+    <string name="update_time_prex" translatable="false">更新于</string>
+    <string name="hyphen" translatable="false">-</string>
+    <string name="slash" translatable="false">/</string>
+    <string name="app_older_zone" translatable="false">曲苑天地</string>
+    <string name="app_older_zone_short" translatable="false">曲苑</string>
+    <string name="app_live" translatable="false">电视</string>
+    <string name="app_local" translatable="false">本地</string>
+    <string name="app_camera" translatable="false">相机</string>
+    <string name="app_local_movie" translatable="false">本地视频</string>
+    <string name="app_local_gallery" translatable="false">本地相册</string>
+    <string name="app_local_music" translatable="false">本地音乐</string>
+    <string name="app_local_fm" translatable="false">收音机</string>
+    <string name="app_vod" translatable="false">点播</string>
+    <string name="app_fun" translatable="false">娱乐</string>
+    <string name="app_settings" translatable="false">设置</string>
+    <string name="app_net_radio" translatable="false">网络电台</string>
+    <string name="app_micro_screen" translatable="false">亲情相册</string>
+    <string name="app_angry_birds" translatable="false">愤怒的小鸟</string>
+    <string name="app_qq_video" translatable="false">视频聊天</string>
+    <string name="app_qq_video_short" translatable="false">视频</string>
+    <string name="app_net_radio_short" translatable="false">电台</string>
+    <string name="app_crayon" translatable="false">蜡笔物理学</string>
+    <string name="app_five_chess" translatable="false">五子棋对战</string>
+    <string name="under_development" translatable="false">功能正在开发中</string>
+    <string name="no_app" translatable="false">没有应用</string>
+    <string name="shortcut_demo" translatable="false">快捷功能演示</string>
+    <string name="shortcut_weather" translatable="false">点此进入天气应用</string>
+    <string name="year" translatable="false">年</string>
+    <string name="month" translatable="false">月</string>
+    <string name="day" translatable="false">日</string>
+    <string name="live_unauthorized" translatable="false">根据国家相关规定，电视直播需要授权才能使用</string>
+    <string name="app_weather" translatable="false">天气</string>
+    <string name="app_healthy" translatable="false">健康</string>
+    <string name="app_healthy_master" translatable="false">健康达人</string>
+    <string name="app_mm" translatable="false">微信</string>
+    <string name="app_tv_series" translatable="false">电视剧</string>
+    <string name="app_children" translatable="false">少儿</string>
+    <string name="app_gallery" translatable="false">相册</string>
+    <string name="app_video" translatable="false">视频</string>
+    <string name="app_music" translatable="false">音乐</string>
+    <string name="app_fm" translatable="false">收音机</string>
+    <string name="app_radio" translatable="false">电台</string>
+    <string name="app_family_album" translatable="false">亲情相册</string>
+    <string name="app_mm_album" translatable="false">微信相册</string>
+	<string name="app_tv" translatable="false">电视</string>
+	<string name="app_calendar" translatable="false">日历</string>
+    
+    <string name="voice_initialize_error" translatable="false">初始化失败,错误码：</string>
+    
+	<string name="app_movie" translatable="false">电影</string>
+	<string name="app_variety" translatable="false">综艺</string>
+	<string name="app_series" translatable="false">连续</string>
+	<string name="app_goodmother" translatable="false">好妈妈</string>
+	<string name="app_comic" translatable="false">动漫</string>
+	<string name="app_knowledge" translatable="false">学知识</string>
+	<string name="app_song_dance" translatable="false">儿歌舞蹈</string>
+	<string name="app_hot_week" translatable="false">动画片</string>
+	<string name="app_video_chat" translatable="false">视频聊天</string>
+	<string name="app_weixin_gallery" translatable="false">微信相册</string>
+	<string name="app_weixin" translatable="false">微信</string>
+	<string name="app_kids" translatable="false">少儿频道</string>
+	<string name="app_cartoon" translatable="false">动画片</string>
+	<string name="app_wifi_tool" translatable="false">WiFi检测</string>
+	<string name="invalid_device" translatable="false">非法设备</string>
+	<string name="data_incorrect" translatable="false">数据不正确</string>
+	<string name="app_accelerate" translatable="false">清理</string>
+	<string name="app_play_record" translatable="false">播放记录</string>
+	<string name="app_play_setting" translatable="false">播放设置</string>
+	<string name="navigation_home" translatable="false">首页</string>
+	<string name="navigation_video" translatable="false">影视</string>
+	<string name="navigation_local" translatable="false">本地</string>
+	<string name="navigation_game" translatable="false">游戏</string>
+	
+    <string-array name="protect_pacakge" translatable="false">
+        <item>com.allwinner.theatreplayer.weather</item>
+        <item>com.allwinner.theatreplayer.weather:remote</item>
+        <item>com.allwinner.theatreplayer.launcher:umengService_v1</item>
+        <item>com.allwinner.theatreplayer.olderzone</item>
+        <item>com.ebanswers.scrollplayer</item>
+        <item>com.elinkway.tvlive2</item>
+        <item>android.process.media</item>
+        <item>com.allwinner.theatreplayer.netradio</item>
+        <item>com.allwinner.theatreplayer.album</item>
+        <item>com.allwinner.theatreplayer.album:xg_service_v2</item>
+        <item>com.allwinner.theatreplayer.album:push</item>
+    </string-array>
+
+
+    <!-- 调用这些应用的时候不静音后台播放app -->
+    <string-array name="mute_app_except_pkg" translatable="false">
+        <item>com.allwinner.theatreplayer.weather</item>
+        <item>com.allwinner.theatreplayer.settings</item>
+    </string-array>
+
+    <integer name="maxs_protext_task" translatable="false">3</integer>
+    <integer name="check_interval" translatable="false">60000</integer>
+    <integer name="clear_threshold" translatable="false">200</integer>
+
+    <string name="weather_01_sunny" translatable="false">晴朗</string>
+    <string name="weather_02_mostly_sunny" translatable="false">晴间多云</string>
+    <string name="weather_03_partly_sunny" translatable="false">晴转阴</string>
+    <string name="weather_04_intermittent_clouds" translatable="false">间歇性多云</string>
+    <string name="weather_05_hazy_sunshine" translatable="false">阳光朦胧</string>
+    <string name="weather_06_mostly_cloudy" translatable="false">多云转阴</string>
+    <string name="weather_07_cloudy" translatable="false">多云</string>
+    <string name="weather_08_dreary" translatable="false">阴霾</string>
+    <string name="weather_11_fog" translatable="false">雾</string>
+    <string name="weather_12_showers" translatable="false">阵雨</string>
+    <string name="weather_13_mostly_cloudy_with_showers" translatable="false">多云有阵雨</string>
+    <string name="weather_14_partly_sunny_with_showers" translatable="false">晴转阴有阵雨</string>
+    <string name="weather_15_thunder_storms" translatable="false">雷雨</string>
+    <string name="weather_16_mostly_cloudy_with_thunder_storms" translatable="false">多云有雷雨</string>
+    <string name="weather_17_partly_sunny_with_thunder_storms" translatable="false">晴转阴有雷雨</string>
+    <string name="weather_18_rain" translatable="false">雨</string>
+    <string name="weather_19_flurries" translatable="false">阵雪</string>
+    <string name="weather_20_mostly_cloudy_with_flurries" translatable="false">多云有阵雪</string>
+    <string name="weather_21_partly_sunny_with_flurries" translatable="false">晴转阴有阵雪</string>
+    <string name="weather_22_snow" translatable="false">雪</string>
+    <string name="weather_23_mostly_cloudy_with_snow" translatable="false">多云有雪</string>
+    <string name="weather_24_ice" translatable="false">冰</string>
+    <string name="weather_25_sleet" translatable="false">冰雹</string>
+    <string name="weather_26_freezing_rain" translatable="false">冻雨</string>
+    <string name="weather_29_rain_and_snow" translatable="false">雨夹雪</string>
+    <string name="weather_30_hot" translatable="false">炎热</string>
+    <string name="weather_31_code" translatable="false">寒冷</string>
+    <string name="weather_32_windy" translatable="false">大风</string>
+    <string name="weather_33_clear" translatable="false">晴朗</string>
+    <string name="weather_34_mostly_clear" translatable="false">晴转阴</string>
+    <string name="weather_35_partly_cloudy" translatable="false">多云转阴</string>
+    <string name="weather_36_intermittent_clouds" translatable="false">间歇性多云</string>
+    <string name="weather_37_hazy_moonlight" translatable="false">月光朦胧</string>
+    <string name="weather_38_mostly_cloudy" translatable="false">多云转阴</string>
+    <string name="weather_39_partly_cloudy_with_showers" translatable="false">多云转阴有阵雨</string>
+    <string name="weather_40_mostly_cloudy_with_showers" translatable="false">多云，有阵雨</string>
+    <string name="weather_41_partly_cloudy_with_thunder_storms" translatable="false">多云转阴有雷雨</string>
+    <string name="weather_42_mostly_cloudy_with_thunder_storms" translatable="false">多云有雷雨</string>
+    <string name="weather_43_mostly_cloudy_with_flurries" translatable="false">多云有阵雪</string>
+    <string name="weather_44_mostly_cloudy_with_snow" translatable="false">多云有雪</string>
+
+    
+    
+     <!-- 已安装应用信息 -->
+    <string name="app_name_aw">Application name:</string>
+    <string name="app_package_name">Application package name:</string>
+    <string name="app_version_num">Version code:</string>
+    <string name="app_version_name">Version name:</string>
+    <string name="app_class_name">Class name:</string>
+    <string name="is_system_app">Is system app:</string>
+    
+    
+</resources>

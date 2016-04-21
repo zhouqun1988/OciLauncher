@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#d4d2d2</color>
+    <color name="blue">#35BEF0</color>
+    <drawable name="transparent">#00000000</drawable>
+    <drawable name="translucent">#b0000000</drawable>
+    <drawable name="bg_blue">#3BA6DE</drawable>
+    <drawable name="bg_lightblue">#0de8f6</drawable>
+    <drawable name="bg_brightblue">#46d9b2</drawable>
+    <drawable name="bg_orange">#fa7b14</drawable>
+    <drawable name="bg_purple">#7c2fec</drawable>
+    <drawable name="bg_brightpurple">#c241e5</drawable>
+     <drawable name="bg_lightpurple">#851ca7</drawable>
+     <drawable name="bg_violet">#7d5ccb</drawable>
+    <drawable name="bg_red">#ff4c6f</drawable>
+    <drawable name="bg_pink">#ff6640</drawable>
+    <drawable name="bg_scarlet">#fb4558</drawable>
+    <drawable name="bg_green">#00cb86</drawable>
+    <drawable name="bg_lightgreen">#52da3f</drawable>
+    <drawable name="bg_grassgreen">#52da3f</drawable>
+    
+</resources>

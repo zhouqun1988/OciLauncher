@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <integer name="my_size">32</integer>
+   	<integer name="screen_height_weightSum">552</integer>
+   	<integer name="viewpager_height">430</integer>
+   	<integer name="dot_layout_height">75</integer>
+    <integer name="top_empty_height">35</integer>
+</resources>
